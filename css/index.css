@@ -1,0 +1,90 @@
+.logo{
+    background-attachment: fixed;
+}
+
+h2 {
+    text-indent: 80px;
+}
+
+p {
+    text-indent: 50px;
+}
+
+.body{
+    width:100%;
+    height:100%;
+    background: url(http://bekot.psihov.net.ua/images/news/news37.jpg) center no-repeat;
+    background-size:cover;
+}
+
+.con2{
+    background-color: #191919;
+    padding: 10px;
+    opacity: 0.8;
+}
+
+.img1 {
+    width:300px;
+    height:200px;
+    float: left;
+    margin: 10px;
+}
+
+.img2 {
+    width:150px;
+    height:100px;
+    float: left;
+    margin: 10px;
+}
+
+.carusel{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+
+#contact form {
+    font-size: 1rem;
+    width: 40%;
+    margin: auto;
+}
+
+#contact form div {
+    margin-bottom: 1rem;
+}
+
+#contact form input:not([type=submit]) {
+    font-size: 1rem;
+    width: 100%;
+}
+
+#contact form input[type=submit] {
+    background-color: #ffebcc;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#contact form input[type=submit]:hover {
+    -webkit-box-shadow: 0 5px 10px -2px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 5px 10px -2px rgba(0,0,0,0.5);
+    box-shadow: 0 5px 10px -2px rgba(0,0,0,0.5);
+}
+
+
+.centered {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centered p {
+    margin-top: 0;
+}
